@@ -1,3 +1,7 @@
 name = "unifi-cloudflare-ddns"
 main = "src/index.js"
 compatibility_date = "2023-04-23"
+
+routes = [
+  { pattern = "ddns.auto.kil.dev", custom_domain = true }
+]
